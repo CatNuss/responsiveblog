@@ -1,0 +1,727 @@
+body {
+	margin:0;
+		background-image: url(../img/soft_wallpaper.png);
+	background-repeat: repeat;
+}
+
+.col-dk-12 {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.col-dk-1 {
+	width: 8.3%;
+	height: 900px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	display: inline-block;
+	float: none;
+	clear: both;
+}
+
+.logo {
+	height: auto;
+	width: 100%;
+}
+
+.border {
+	max-height: 390px;
+}
+
+.col-dk-nav {
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	display: inline-block;
+	text-align: center; 
+	position: relative;
+	display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:not(.active) {
+	color: white;
+}
+
+li a:hover {
+    background-image: url("../img/gold3.jpg") max-height: 200px;
+    color: black;
+}
+
+li a.active {
+    color: black;
+    background-image: hidden;
+}
+
+
+.clearfix {
+	display: inline-block;
+	float: none;
+	clear: both;
+}
+
+/*mobile*/
+@media screen and (min-width:180px) and (max-width:767px) {
+	
+	.col-sm-nav {
+		background-color: black;
+		width: 100%;
+		height: 35px;
+	}
+
+	img {
+	height: auto;
+	width: 100%;
+	}
+
+	.logo-sm {
+		background-color: lavender;
+		width: 100%;
+		height: 100px;
+	}
+
+	.col-sm-3 {
+		background-color: blue;
+		height: 380px;
+		width: 100%;
+	}
+	
+	.col-sm-4 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		width: 50%;
+		height: 248px;
+	}
+
+	.vogue {
+		padding-top: 10px;
+	}
+
+	.vogue h1 {
+		background-size: 100px 50px;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+
+	#readmore {
+		margin: 0 auto;
+		border: none;
+	    color: black;
+	    padding: 8px;
+	    text-align: center;
+	}
+
+	button {
+		float: center;
+		font-family: 'Lobster', cursive;
+		background-image: url(../img/gold3.jpg);
+		text-decoration: none;
+	    border-radius: 15px;
+	    font-size: 20px;
+	}
+
+	button:hover {
+	    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+
+	.col-sm-5 {
+		width: 50%;
+		height: 248px;
+	}
+
+	.col-sm-8 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 250px;
+		width: 100%;
+	}
+
+
+	.flex-container {
+	    display: -webkit-flex;
+	    display: flex;
+	    border-top: 1px solid black;
+	    border-bottom: 1px solid black;
+	    -webkit-align-items: start;
+	    align-items: start;
+	    width: 320px;
+	    height: 250px;
+	}
+
+	.flex-item {
+	    -webkit-align-self: stretch;
+    	align-self: stretch;
+	    width: 50%;
+	    height: 100px;
+	    margin: 10px;
+	}
+
+	.flex-container p {
+		display: none;
+	}
+
+	.vogue p {
+		display: none;
+	}
+
+	h1 {
+		background-image: none;
+		 font-family: 'Lobster', cursive;
+		 padding-top: 30px;
+		 font-size: 20px;
+		 text-align: center;
+	}
+
+	#midchild{
+		padding-top: 40px;
+	}
+
+	.col-sm-quar {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 0px;
+		width: 100%;
+	}
+
+	.col-sm-quar2 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 450px;
+		width: 100%;
+	}
+
+	.col-sm-quar3 {
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	}
+
+	li {
+	    float: left;
+	    font-family: 'Lobster', cursive;
+	    font-size: 10px;
+	}
+
+	li a {
+		color: white;
+	}
+
+	li a:hover {
+	    background-image: url("../img/gold3.jpg");
+	    color: black;
+	}
+
+	.active:hover {
+		background-image: url("../img/gold3.jpg");
+	    color: black;
+	}
+
+	li a.active {
+	    color: white;
+	}
+
+#social {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	display: inline;
+}
+
+.socialmedia .fa {
+	padding-left: 70px;
+}
+
+.clearfix {
+	display: inline-block;
+	float: none;
+	clear: both;
+}
+
+.footer-sm {
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-size: 9px;
+		width: 100%;
+		height: 30px;
+	}
+
+.footer-sm small {
+	padding-bottom: 10px;
+}
+}
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+	.col-md-nav {
+		background-color: black;
+		width: 100%;
+		height: 55px;
+	}
+
+	img {
+	height: auto;
+	width: 100%;
+	}
+
+	.logo-md {
+		background-color: lavender;
+		width: 100%;
+		height: 250px;
+	}
+
+	.col-md-3 {
+		background-color: blue;
+		height: 350px;
+		width: 33.33%;
+	}
+
+	.col-md-4 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 390px;
+		width: 33.33%;
+	}
+
+	.col-md-5 {
+		background-color: yellow;
+		width: 33.33%;
+		height: 390px;
+	}
+
+	.vogue {
+		padding-top: 10px;
+	}
+
+	.vogue h1 {
+		background-image: url(../img/flexhead.png);
+		background-size: 320px 500px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.col-md-8 {
+		background-color: green;
+		height: 500px;
+		width: 100%;
+	}
+	.col-md-8 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 500px;
+		width: 100%;
+	}
+
+
+.flex-container {
+	    display: -webkit-flex;
+	    display: flex;
+	    align-items: flex-start;
+	    justify-content: center;
+	    width: 100%;
+	    height: 400px;
+		}
+
+.flex-item {
+	    background-image: url(../img/flexhead.png);
+	    background-repeat: no-repeat;
+	    margin:0 auto;
+	    background-size: 240px 100px;
+	    -webkit-align-self: stretch;
+    	align-self: stretch;
+	    width: 33.33%;
+	    height: 80px;
+	    margin: 10px;
+	}
+
+#midchild {
+	background-image: none;
+	background-size: 320px 100px;
+    -webkit-align-self: stretch;
+	align-self: stretch;
+    width: 33.33%;
+    height: 80px;
+    margin: 10px;
+}
+
+p {
+		 font-size: 12px;
+		 text-align: center;
+		 padding: 5px;
+	}
+
+h1 {
+		 font-family: 'Lobster', cursive;
+		 font-size: 26px;
+		 text-align: center;
+	}
+
+
+/*buttons*/
+
+
+#readmore {
+	margin: 0 auto;
+	border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+	float: center;
+	font-family: 'Lobster', cursive;
+	background-image: url(../img/gold3.jpg);
+	text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+	.block {
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	}
+
+	.col-md-quar {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 420px;
+		width: 33.33%;
+	}
+
+	.col-md-quar2 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 420px;
+		width: 33.33%;
+	}
+
+	.col-md-quar3 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 420px;
+		width: 33.33%;
+	}
+
+#social {
+	margin: 0 auto;
+	display: inline; 
+}
+
+.socialmedia {
+    margin: 0 auto;
+    display: inline;
+    float: center;
+    padding: 18px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa {
+	float: center;
+	padding: 25px;
+	font-size: 35px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.clearfix {
+	display: inline-block;
+	float: none;
+	clear: both;
+}
+
+
+.footer-md {
+		background-color: black;
+		color: white;
+		width: 100%;
+		height: 50px;
+	}
+
+
+	li {
+	    float: left;
+	    font-family: 'Lobster', cursive;
+	    font-size: 22px;
+	}
+
+	li a:not(.active) {
+		color: white;
+	}
+
+	li a:hover:not(.active) {
+	    background-image: url("../img/gold3.jpg");
+	    color: black;
+	}
+
+	li a.active {
+	    color: black;
+	    background-image: url("../img/gold3.jpg");
+	}
+}
+
+/*desktop*/
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+	.col-dk-nav {
+		background-color: black;
+		width: 100%;
+		height: 55px;
+	}
+
+	li {
+	    float: left;
+	    font-family: 'Lobster', cursive;
+	    font-size: 22px;
+	}
+
+	li a:not(.active) {
+		color: white;
+	}
+
+	li a:hover:not(.active) {
+	    background-image: url("../img/gold3.jpg");
+	    color: black;
+	}
+
+	li a.active {
+	    color: black;
+	    background-image: url("../img/gold3.jpg");
+	}
+
+	img {
+		height: auto;
+		width: 100%;
+	}
+
+	.logo-dk {
+		background-color: lavender;
+		width: 100%;
+		height: 310px;
+	}
+
+	.col-dk-3 {
+		background-color: blue;
+		height: 500px;
+		width: 33.33%;
+	}
+
+	.col-dk-4 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		width: 33.33%;
+		height: 500px;
+	}
+
+	.vogue {
+		padding-top: 40px;
+	}
+
+	.vogue h1 {
+		background-image: url(../img/flexhead.png);
+		background-size: 320px 500px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.col-dk-5 {
+		background-color: yellow;
+		width: 33.33%;
+		height: 500px;
+	}
+
+	.col-dk-8 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 500px;
+		width: 100%;
+	}
+
+
+.flex-container {
+	    display: -webkit-flex;
+	    display: flex;
+	    align-items: flex-start;
+	    justify-content: center;
+	    width: 100%;
+	    height: 400px;
+		}
+
+.flex-item {
+	    background-image: url(../img/flexhead.png);
+	    background-repeat: no-repeat;
+	    margin:0 auto;
+	    background-size: 320px 100px;
+	    -webkit-align-self: stretch;
+    	align-self: stretch;
+	    width: 33.33%;
+	    height: 80px;
+	    margin: 10px;
+	}
+
+#midchild {
+	background-image: none;
+	background-size: 320px 100px;
+    -webkit-align-self: stretch;
+	align-self: stretch;
+    width: 33.33%;
+    height: 80px;
+    margin: 10px;
+}
+
+p {
+		 font-size: 15px;
+		 text-align: center;
+		 padding: 5px;
+	}
+
+h1 {
+		 font-family: 'Lobster', cursive;
+		 font-size: 26px;
+		 text-align: center;
+	}
+
+
+/*buttons*/
+
+
+#readmore {
+	margin: 0 auto;
+	border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+	float: center;
+	font-family: 'Lobster', cursive;
+	background-image: url(../img/gold3.jpg);
+	text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+	.block {
+		background-color: red;
+		width: 66.66%;
+		height: 600px;
+	}
+
+	.col-dk-quar {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 500px;
+		width: 33.33%;
+	}
+
+	.col-dk-quar2 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 500px;
+		width: 33.33%;
+	}
+
+	.col-dk-quar3 {
+		background-image: url(../img/soft_wallpaper.png);
+		background-repeat: repeat;
+		height: 500px;
+		width: 33.33%;
+	}
+
+#social {
+	margin: 0 auto;
+	display: inline; 
+}
+
+.socialmedia {
+    margin: 0 auto;
+    display: inline;
+    float: center;
+    padding: 50px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa {
+	float: center;
+	padding: 25px;
+	font-size: 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.clearfix {
+	display: inline-block;
+	float: none;
+	clear: both;
+}
+
+
+.footer-dk {
+		background-color: black;
+		color: white;
+		width: 100%;
+		height: 50px;
+	}
+
+
+
+}
+
+
+
+
+
+
